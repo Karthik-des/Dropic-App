@@ -24,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+  "ios": {
+    "config": {
+      "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY"
     }
+  }
+}
+
   }
 }

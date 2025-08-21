@@ -1,4 +1,5 @@
 import { registerRootComponent } from 'expo';
+import { View, Text } from 'react-native';
 
 import App from './App';
 

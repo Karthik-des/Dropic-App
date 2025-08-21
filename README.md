@@ -1,5 +1,5 @@
 # Dropic-App
-Dropic is a mobile application
+Dropic is a mobile application for travelling
 
 
 

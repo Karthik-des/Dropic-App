@@ -6,6 +6,7 @@ const authRoutes = require("./routes/authRoutes");
 const rideRoutes = require("./routes/rideRoutes");
 const driverRoutes = require("./routes/driverRoutes");
 const userRoutes = require("./routes/userRoutes");
+const bookingRoutes = require("./routes/bookingRoutes"); // ✅ only once
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/rides", rideRoutes);
 app.use("/api/drivers", driverRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/bookings", bookingRoutes); // ✅ using it here
 
 // Default route
 app.get("/", (req, res) => {
